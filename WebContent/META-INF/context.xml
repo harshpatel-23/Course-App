@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Loader delegate="true"/>
+<Resource
+        name="jdbc/zuniversitydb"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxActive="10"
+        maxIdle="4"
+        username="studentDbUser"
+        maxWait="1"
+        driverClassName="com.mysql.jdbc.Driver"
+        password="studentpswd"
+        url="jdbc:mysql://localhost/cs532_jstl_zuniv"/>
+</Context>
